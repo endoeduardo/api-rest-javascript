@@ -1,5 +1,5 @@
 import app from "./src/app.js"
 
-app.listen(3000, () => {
-    console.log("Servidor escutando!")
+app.listen(process.env.API_PORT, () => {
+    console.log("Server is alive");
 });

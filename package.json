@@ -1,6 +1,7 @@
 {
   "name": "api-rest-javascript",
   "version": "1.0.0",
+  "type": "module",
   "description": "A RESTful API built with **Node.js** and **Express.js** as a learning project, focused on exploring backend development concepts such as routing, middleware, authentication, and error handling.",
   "main": "index.js",
   "directories": {
