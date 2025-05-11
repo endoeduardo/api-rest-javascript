@@ -30,3 +30,6 @@ The product entity is designed to be **adaptable** to various business needs. It
 - **Node.js**
 - **Express.js**
 - **MongoDB**
+
+## Class diagram
+![alt text](docs/img/class_diagram.png)

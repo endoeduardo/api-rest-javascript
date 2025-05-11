@@ -1,0 +1,30 @@
+{
+  "name": "api-rest-javascript",
+  "version": "1.0.0",
+  "description": "A RESTful API built with **Node.js** and **Express.js** as a learning project, focused on exploring backend development concepts such as routing, middleware, authentication, and error handling.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:endoeduardo/api-rest-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
