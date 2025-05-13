@@ -1,5 +1,5 @@
 import express from 'express'
-import router from './routes/routes.js';
+import routes from './routes/routes.js';
 import connectToDatabase from './config/dbConnection.js';
 import dotenv from 'dotenv';
 import errorHandler from './middlewares/errorHandler.js';
@@ -16,7 +16,10 @@ connection.on("open", () => {console.log("Connected to the db")});
 
 const app = express();
 
-app.use(express.json(), router);
+app.use(express.json());
+
+routes(app);
+
 app.use(errorHandler)
 
 export default app;
